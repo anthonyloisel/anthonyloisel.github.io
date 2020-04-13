@@ -21,7 +21,10 @@ body {
     margin: 0;
     padding: 0;
 }
-p, li {
+p, li{
+    font-size: 1.2em;
+}
+.recolink a {
     font-size: 1.2em;
 }
 h1 {
@@ -76,6 +79,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 270.5px;
 }
 #bloc_gauche p, #bloc_gauche li {
     color: white;
@@ -111,6 +115,19 @@ header {
     border: 3px solid white;
     box-shadow: 0 0 10px 2px black;
 }
+.recommandations {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#recommandation1 {
+    flex: 4;
+    min-width: 270.5px;
+}
+#recommandation2 {
+    flex: 6;
+}
 
 /* Bloc de droite*/
 
@@ -121,7 +138,7 @@ header {
 #title_subtitle {
     margin-left: 50px;
 }
-#Titre h2  span {
+#Titre h2, #main_title span {
     color: #1c1c19;
 }
 #bloc_droite {
@@ -171,3 +188,21 @@ header {
 .contenu p {
     margin-top: 0;
 }
+.recolink a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+.recolink a:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+.recolink a:hover {
+    color: #e5c028;
+    font-weight: bold;
+  }
+  
+.recolink a:active {
+    font-weight: bold;
+  }

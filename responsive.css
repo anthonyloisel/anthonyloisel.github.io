@@ -9,20 +9,26 @@
         display: flex;
         flex-direction: column;
     }
-
     h2 {
         border: none;
     }
-
     #h2responsive {
         margin-block-start: 0;
     }
 
     /* Partie de gauche */
 
+    #bloc_gauche h2 {
+        border: none
+    }
+    #Photo {
+        padding-bottom: 25px;
+    }
+
     /* Partie de droite */
     
     #bloc_droite {
         order: -1;
     }
+
 }
