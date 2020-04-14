@@ -42,21 +42,21 @@ ul {
 }
 #Contacts a:link {
     text-decoration: none;
-    color: white;
+    color: #1c1c19;
     font-weight: bold;
   }
 #Contacts a:visited {
     text-decoration: none;
-    color: white;
+    color: #1c1c19;
     font-weight: bold;
   }
 #Contacts a:hover {
-    color: #1c1c19;
+    color: white;
     font-weight: bold;
   }
   
 #Contacts a:active {
-    color: white;
+    color: #1c1c19;
     font-weight: bold;
   }
 header {
@@ -82,7 +82,7 @@ header {
     min-width: 270.5px;
 }
 #bloc_gauche p, #bloc_gauche li {
-    color: white;
+    color: #1c1c19;
 }
 #Photo {
     display: flex;
@@ -108,7 +108,20 @@ header {
     padding-right: 20px;
 }
 #Loisirs {
-    color: white;
+    color: #1c1c19;
+    padding-bottom: 20px;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.hobbies i{
+    border : 4px solid #1c1c19;
+    border-radius: 50%;
+    padding: 5px;
 }
 #Photo img {
     border-radius: 50%;
