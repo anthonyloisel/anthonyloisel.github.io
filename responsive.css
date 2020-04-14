@@ -25,10 +25,14 @@
         padding-bottom: 25px;
     }
 
+    .hobbies {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+
     /* Partie de droite */
     
     #bloc_droite {
         order: -1;
     }
-
 }
