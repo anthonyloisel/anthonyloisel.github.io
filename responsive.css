@@ -1,3 +1,4 @@
+/* Responsive petit écran max 900px */
 @media screen and (max-width: 900px)
 { 
     /* Partie globale */
@@ -5,7 +6,7 @@
         display: flex;
         flex-direction: column;
     }
-    #corps {
+    main {
         display: flex;
         flex-direction: column;
     }
@@ -36,3 +37,58 @@
         order: -1;
     }
 }
+
+
+
+
+/* Responsive très petit écran max 650px */
+@media screen and (min-width: 200px) and (max-width: 650px)
+{ 
+    /* Partie globale */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        border: none;
+    }
+    #h2responsive {
+        margin-block-start: 0;
+    }
+
+    /* Partie de gauche */
+
+    #bloc_gauche h2 {
+        border: none
+    }
+    #Photo {
+        padding-bottom: 25px;
+    }
+
+    .hobbies {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* Partie de droite */
+    
+    #bloc_droite {
+        order: -1;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenu{
+        padding-top: 20px;
+    }
+    .recommandations {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

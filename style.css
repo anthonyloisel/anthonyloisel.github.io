@@ -12,6 +12,11 @@
 
 }
 
+
+
+
+
+
 /* Bloc global*/
 
 * {
@@ -67,10 +72,18 @@ header {
     display: flex;
     flex-direction: column;
 }
-#corps {
+main {
     display: flex;
     flex-direction: row;
 }
+
+
+
+
+
+
+
+
 
 /* Bloc de gauche*/
 #bloc_gauche {
@@ -128,19 +141,13 @@ header {
     border: 3px solid white;
     box-shadow: 0 0 10px 2px black;
 }
-.recommandations {
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
-#recommandation1 {
-    flex: 4;
-    min-width: 270.5px;
-}
-#recommandation2 {
-    flex: 6;
-}
+
+
+
+
+
+
+
 
 /* Bloc de droite*/
 
@@ -150,6 +157,9 @@ header {
 }
 #title_subtitle {
     margin-left: 50px;
+}
+#title_subtitle h2 {
+    border-bottom: 3px solid #e5c028;
 }
 #Titre h2, #main_title span {
     color: #1c1c19;
@@ -175,10 +185,16 @@ header {
     font-size: 2em;
     margin-top: 18px;
 }
-.article {
+#title_border{
+    width: 280px;
+}
+#formation{
+    margin-left: 42px;
+}
+article {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 102px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -200,6 +216,19 @@ header {
 }
 .contenu p {
     margin-top: 0;
+}
+.recommandations {
+    display: flex;
+    flex-direction: row;
+    margin-left: 102px;
+    margin-bottom: 20px;
+}
+#recommandation1 {
+    flex: 4;
+    min-width: 270.5px;
+}
+#recommandation2 {
+    flex: 6;
 }
 .recolink a:link {
     text-decoration: none;
