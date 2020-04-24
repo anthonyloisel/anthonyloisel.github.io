@@ -168,7 +168,7 @@ main {
     flex: 3;
     margin-top: 5px;
 }
-.bloc_titre{
+#bloc_droite header{
     display: flex;
     flex-direction: row;
     margin-left: 50px;
