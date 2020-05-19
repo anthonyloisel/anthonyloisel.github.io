@@ -17,6 +17,7 @@
 
 
 
+
 /* Bloc global*/
 
 * {
@@ -86,6 +87,7 @@ main {
 
 
 /* Bloc de gauche*/
+
 #bloc_gauche {
     background-color: #e5c028;
     flex: 1;
@@ -115,7 +117,7 @@ main {
 #Apropos {
     flex-grow: 1;
 }
-#presentation {
+.presentation {
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
@@ -131,7 +133,7 @@ main {
     padding-left: 20px;
     padding-right: 20px;
 }
-.hobbies i{
+.hobbies span{
     border : 4px solid #1c1c19;
     border-radius: 50%;
     padding: 5px;
@@ -141,7 +143,6 @@ main {
     border: 3px solid white;
     box-shadow: 0 0 10px 2px black;
 }
-
 
 
 
@@ -180,7 +181,7 @@ main {
     margin-top: 25px;
     border-bottom: 3px solid #e5c028;
 }
-.icones_titre i{
+.icones_titre span{
     color: #e5c028;
     font-size: 2em;
     margin-top: 18px;
@@ -198,7 +199,7 @@ article {
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.icons i {
+.icons span {
     color: #e5c028;
 }
 .texte_article p {

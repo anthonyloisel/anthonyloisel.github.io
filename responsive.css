@@ -85,6 +85,8 @@
     }
     .contenu{
         padding-top: 20px;
+        padding-right: 36px;
+        margin-left: 36px;
     }
     .recommandations {
         display: flex;
