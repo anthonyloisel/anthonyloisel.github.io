@@ -24,6 +24,7 @@
     font-family: 'barlowlight', Arial, Helvetica, sans-serif;
 }
 body {
+    background-color: #eeeeee;
     margin: 0;
     padding: 0;
 }
@@ -193,6 +194,7 @@ main {
     margin-left: 42px;
 }
 article {
+    padding-right: 50px;
     display: flex;
     flex-direction: row;
     margin-left: 102px;
